@@ -1,6 +1,5 @@
 package service.consumer;
 
-import java.time.Duration;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -24,8 +23,7 @@ public class ServiceConsumer {
 	void onActivate() {
 		System.err.println("Started Consumer");
 		hello.sayHello();
-		executor.schedule(() -> hello.sayHello(), Duration.ofSeconds(7).getSeconds(),
-				TimeUnit.SECONDS);
+		executor.scheduleWithFixedDelay(() -> hello.sayHello(),0, 15,TimeUnit.SECONDS);
 	}
 	
 	void onDeactivate() {
