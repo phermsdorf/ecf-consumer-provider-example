@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="service.provider.HelloService">
+   <property name="my.id" value="myservice"/>
+   <property name="service.exported.interfaces" value="*"/>
+   <property name="service.exported.configs" value="ecf.socket.server"/>
+   <service>
+      <provide interface="service.IHello"/>
+   </service>
+   <implementation class="service.provider.HelloService"/>
+</scr:component>
