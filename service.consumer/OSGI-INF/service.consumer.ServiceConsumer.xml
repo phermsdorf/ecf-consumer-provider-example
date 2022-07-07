@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" activate="onActivate" name="service.consumer.ServiceConsumer">
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" activate="onActivate" deactivate="onDeactivate" name="service.consumer.ServiceConsumer">
    <reference cardinality="1..1" field="hello" interface="service.IHello" name="hello" policy="dynamic"/>
    <implementation class="service.consumer.ServiceConsumer"/>
 </scr:component>
