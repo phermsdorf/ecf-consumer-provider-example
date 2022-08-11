@@ -31,6 +31,7 @@ public class SecondConsumer {
 			@Override
 			protected IStatus run(IProgressMonitor monitor) {
 				try {
+					System.out.println("calling service from " + getClass().getName());
 					callService();
 				} finally {
 					schedule(5000L);

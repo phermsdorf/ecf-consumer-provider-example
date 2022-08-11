@@ -15,8 +15,9 @@
     <stringAttribute key="featureDefaultLocation" value="workspace"/>
     <stringAttribute key="featurePluginResolution" value="workspace"/>
     <booleanAttribute key="includeOptional" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
-    <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+    <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog -console"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Declipse.ignoreApp=true -Dosgi.noShutdown=true -DverboseRemoteServiceAdmin=true"/>
@@ -43,6 +44,7 @@
         <setEntry value="org.eclipse.ecf.provider.jmdns@default:default"/>
         <setEntry value="org.eclipse.ecf.provider.remoteservice@default:default"/>
         <setEntry value="org.eclipse.ecf.provider@default:default"/>
+        <setEntry value="org.eclipse.ecf.remoteservice.asyncproxy*1.1.200.v20200611-2220@default:default"/>
         <setEntry value="org.eclipse.ecf.remoteservice.asyncproxy*2.1.100.v20200611-2220@default:default"/>
         <setEntry value="org.eclipse.ecf.remoteservice.eventadmin@default:default"/>
         <setEntry value="org.eclipse.ecf.remoteservice@default:default"/>
@@ -54,7 +56,6 @@
         <setEntry value="org.eclipse.equinox.common@2:true"/>
         <setEntry value="org.eclipse.equinox.concurrent@default:default"/>
         <setEntry value="org.eclipse.equinox.console@default:default"/>
-        <setEntry value="org.eclipse.equinox.ds@1:true"/>
         <setEntry value="org.eclipse.equinox.event@default:default"/>
         <setEntry value="org.eclipse.equinox.preferences@default:default"/>
         <setEntry value="org.eclipse.equinox.registry@default:default"/>
