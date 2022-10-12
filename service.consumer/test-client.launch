@@ -15,6 +15,7 @@
     <stringAttribute key="featureDefaultLocation" value="workspace"/>
     <stringAttribute key="featurePluginResolution" value="workspace"/>
     <booleanAttribute key="includeOptional" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
@@ -38,8 +39,7 @@
         <setEntry value="org.eclipse.ecf.osgi.services.remoteserviceadmin@default:default"/>
         <setEntry value="org.eclipse.ecf.provider.remoteservice@default:default"/>
         <setEntry value="org.eclipse.ecf.provider@default:default"/>
-        <setEntry value="org.eclipse.ecf.remoteservice.asyncproxy*1.1.200.v20200611-2220@default:default"/>
-        <setEntry value="org.eclipse.ecf.remoteservice.asyncproxy*2.1.100.v20200611-2220@default:default"/>
+        <setEntry value="org.eclipse.ecf.remoteservice.asyncproxy@default:default"/>
         <setEntry value="org.eclipse.ecf.remoteservice@default:default"/>
         <setEntry value="org.eclipse.ecf.sharedobject@default:default"/>
         <setEntry value="org.eclipse.ecf@default:default"/>
@@ -50,10 +50,16 @@
         <setEntry value="org.eclipse.equinox.event@default:default"/>
         <setEntry value="org.eclipse.equinox.preferences@default:default"/>
         <setEntry value="org.eclipse.equinox.registry@default:default"/>
+        <setEntry value="org.eclipse.osgi*3.18.0.v20220516-2155@-1:true"/>
+        <setEntry value="org.eclipse.osgi.services*3.10.200.v20210723-0643@default:default"/>
         <setEntry value="org.eclipse.osgi.services.remoteserviceadmin@default:default"/>
-        <setEntry value="org.eclipse.osgi.services@default:default"/>
         <setEntry value="org.eclipse.osgi.util@default:default"/>
-        <setEntry value="org.eclipse.osgi@-1:true"/>
+        <setEntry value="org.osgi.service.prefs@default:default"/>
+        <setEntry value="org.osgi.util.function@default:default"/>
+        <setEntry value="org.osgi.util.measurement@default:default"/>
+        <setEntry value="org.osgi.util.position@default:default"/>
+        <setEntry value="org.osgi.util.promise@default:default"/>
+        <setEntry value="org.osgi.util.xml@default:default"/>
     </setAttribute>
     <setAttribute key="selected_workspace_bundles">
         <setEntry value="org.eclipse.ecf.provider.tcpsocket.client@default:default"/>
