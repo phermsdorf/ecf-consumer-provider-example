@@ -59,17 +59,18 @@
         <setEntry value="org.eclipse.equinox.event@default:default"/>
         <setEntry value="org.eclipse.equinox.preferences@default:default"/>
         <setEntry value="org.eclipse.equinox.registry@default:default"/>
+        <setEntry value="org.eclipse.osgi*3.18.0.v20220516-2155@-1:true"/>
         <setEntry value="org.eclipse.osgi.compatibility.state@default:false"/>
+        <setEntry value="org.eclipse.osgi.services*3.10.200.v20210723-0643@default:default"/>
         <setEntry value="org.eclipse.osgi.services.remoteserviceadmin@default:default"/>
-        <setEntry value="org.eclipse.osgi.services@default:default"/>
         <setEntry value="org.eclipse.osgi.util@default:default"/>
-        <setEntry value="org.eclipse.osgi@-1:true"/>
         <setEntry value="org.osgi.service.prefs@default:default"/>
         <setEntry value="org.osgi.util.function@default:default"/>
         <setEntry value="org.osgi.util.measurement@default:default"/>
         <setEntry value="org.osgi.util.position@default:default"/>
         <setEntry value="org.osgi.util.promise@default:default"/>
         <setEntry value="org.osgi.util.xml@default:default"/>
+        <setEntry value="org.slf4j.api@default:default"/>
         <setEntry value="org.w3c.css.sac@default:default"/>
     </setAttribute>
     <setAttribute key="selected_workspace_bundles">

@@ -18,7 +18,7 @@ public class HelloService implements IHello{
 	
 	@Override
 	public void sayHello() {
-		System.err.println("Hello");
+		System.err.println("Hello called from " + UserManager.getUser());
 	}
 
 }
